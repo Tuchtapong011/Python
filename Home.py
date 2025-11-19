@@ -8,6 +8,7 @@ st.header('Tuchtapong')
 st.image("./img/images.jpg")
 col1, col2, col3 = st.columns(3)
 
+st.header('โปรเจดจดการจำแนกข้อมูลดอกไม้')
 col1, col2, col3 = st.columns(3)
 
 with col1:
