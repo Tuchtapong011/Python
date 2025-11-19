@@ -10,9 +10,8 @@ st.header("Tuchtapong")
 # จัดให้อยู่กึ่งกลาง
 center = """
     <div style='text-align: center;'>
-        <img src='./img/images.jpg' width='350'>
-        <br><br>
-        <img src='./img/satono-diamond-uma-musume.gif' width='350'>
+st.image("img/images.jpg")
+st.image("img/satono-diamond-uma-musume.gif")
     </div>
 """
 st.markdown(center, unsafe_allow_html=True)
