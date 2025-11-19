@@ -4,10 +4,18 @@ import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
 
-st.header('Tuchtapong')
-st.image("./img/images.jpg")
-st.image("./img/satono-diamond-uma-musume.gif")
-col1, col2, col3 = st.columns(3)
+# ส่วนหัว
+st.header("Tuchtapong")
+
+# จัดให้อยู่กึ่งกลาง
+center = """
+    <div style='text-align: center;'>
+        <img src='./img/images.jpg' width='350'>
+        <br><br>
+        <img src='./img/satono-diamond-uma-musume.gif' width='350'>
+    </div>
+"""
+st.markdown(center, unsafe_allow_html=True)
 
 st.header('โปรเจดจดการจำแนกข้อมูลดอกไม้')
 col1, col2, col3 = st.columns(3)
