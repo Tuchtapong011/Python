@@ -6,6 +6,7 @@ import matplotlib.pyplot as plt
 
 st.header('Tuchtapong')
 st.image("./img/images.jpg")
+st.image("./img/satono-diamond-uma-musume.gif")
 col1, col2, col3 = st.columns(3)
 
 st.header('โปรเจดจดการจำแนกข้อมูลดอกไม้')
